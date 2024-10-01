@@ -1,6 +1,6 @@
 import mongodb from "mongodb";
 import nodemailer from "nodemailer";
-import password from "./mail_param.js";
+import password from "./mailparam.js";
 const pass = password.password;
 const GMAIL = process.env.GMAIL;
 
